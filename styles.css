@@ -130,6 +130,7 @@ div {
   overflow-y: hidden; /* Hide vertical overflow */
   -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
   padding: 10px; /* Add padding to prevent cutting off content */
+  padding-right: 25px;
 }
 
 .hourly-forecast {
@@ -314,6 +315,7 @@ hr {
   position: relative;
   -webkit-overflow-scrolling: touch;
   padding-top: 50px;
+  padding-left: 20px;
 }
 
 .weather-card .temp svg {
@@ -330,7 +332,7 @@ hr {
 
 /* The media query for smaller screens */
 
-@media (max-width: 1443px) {
+@media (max-width: 1462px) {
   .nav-bar {
     z-index: 10;
   }
