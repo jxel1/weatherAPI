@@ -401,7 +401,7 @@ hr {
     overflow-x: auto; /* Allow horizontal scrolling */
     overflow-y: hidden; /* Hide vertical overflow */
     -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on iOS */
-    padding-left: 350px; /* Add padding to prevent cutting off content */
+    padding-left: 400px; /* Add padding to prevent cutting off content */
   }
 
   .hourly-forecast {
@@ -460,6 +460,6 @@ hr {
   }
 
   .hourly {
-    padding-left: 350px;
+    padding-left: 400px;
   }
 }
