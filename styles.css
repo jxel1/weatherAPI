@@ -373,6 +373,7 @@ hr {
     height: 50%;
     margin-left: 0;
     width: 90%;
+    padding-top: 10px;
   }
   .forecast-title {
     display: block;
@@ -460,6 +461,10 @@ hr {
   }
 
   .hourly {
-    padding-left: 400px;
+    padding-left: 450px;
+  }
+
+  .weather-week {
+    padding-left: 40px;
   }
 }
