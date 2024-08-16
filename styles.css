@@ -468,12 +468,12 @@ hr {
 
 @media (max-width: 768px) {
   .top-info {
-    padding: 1rem;
+    padding: 30px;
   }
 
   .hourly {
-    padding-left: 340px;
-    max-width: 1px;
+    padding-left: 330px;
+    max-width: 0px;
   }
 
   .weather-week {
@@ -481,7 +481,7 @@ hr {
   }
 
   .general-info {
-    width: 80%;
+    width: 87%;
   }
 
   .hourly-forecast {
@@ -497,8 +497,13 @@ hr {
     padding: 10px;
   }
 
-  .top-info > div {
-    width: 230px;
+  .top-info {
+    max-width: 430px;
+  }
+
+  .top-info > .top-info-card,
+  .top-info-card2 {
+    max-width: 190px;
   }
 
   #sunset,
@@ -509,5 +514,13 @@ hr {
 
   .bottom-info h3 {
     text-decoration: underline;
+  }
+
+  .hourly-title {
+    margin-left: 85px;
+  }
+
+  .top-info > * {
+    margin-top: -10px;
   }
 }
