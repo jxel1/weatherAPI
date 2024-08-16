@@ -186,6 +186,7 @@ div {
   gap: 10px;
   margin-bottom: 10px;
   border: none;
+  height: 150px;
 }
 
 .top-info-card-bot > svg {
@@ -332,6 +333,14 @@ hr {
   margin-top: 10px;
 }
 
+.bottom-info h3 {
+  text-decoration: underline;
+}
+
+.top-info h3 {
+  text-decoration: underline;
+}
+
 /* The media query for smaller screens */
 
 @media (max-width: 1482px) {
@@ -459,7 +468,7 @@ hr {
 
 @media (max-width: 768px) {
   .top-info {
-    padding: 0;
+    padding: 1rem;
   }
 
   .hourly {
@@ -475,11 +484,30 @@ hr {
     width: 80%;
   }
 
-  .nav-bar {
-    display: none;
-  }
-
   .hourly-forecast {
     gap: 50px;
+  }
+  .top-info {
+    font-size: 14px;
+    gap: 0;
+    height: 40%;
+  }
+  .top-info-card,
+  .top-info-card2 {
+    padding: 10px;
+  }
+
+  .top-info > div {
+    width: 230px;
+  }
+
+  #sunset,
+  #sunrise,
+  #feels-like {
+    font-size: 18px;
+  }
+
+  .bottom-info h3 {
+    text-decoration: underline;
   }
 }
