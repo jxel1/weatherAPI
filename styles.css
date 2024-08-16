@@ -2,7 +2,9 @@
   color: white;
 }
 body {
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-sizing: border-box;
 }
 input {
   width: calc(100% - 16px);
@@ -138,7 +140,7 @@ div {
   flex-direction: row;
   justify-content: flex-start; /* Align items at the start */
   align-items: center;
-  gap: 50px; /* Large gap, can be adjusted */
+  gap: 73px; /* Large gap, can be adjusted */
   list-style: none;
   padding: 0;
   margin: 0;
@@ -461,10 +463,23 @@ hr {
   }
 
   .hourly {
-    padding-left: 450px;
+    padding-left: 340px;
+    max-width: 1px;
   }
 
   .weather-week {
     padding-left: 40px;
+  }
+
+  .general-info {
+    width: 80%;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .hourly-forecast {
+    gap: 50px;
   }
 }

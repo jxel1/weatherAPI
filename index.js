@@ -138,7 +138,7 @@ function displayWeather(data) {
 
 function displayHourlyForecast(hourlyData) {
   const hourlyForecast = document.getElementById("hourly-forecast");
-  const today = hourlyData.slice(0, 8);
+  const today = hourlyData.slice(0, 7);
   hourlyForecast.innerHTML = "";
 
   today.forEach((item) => {
